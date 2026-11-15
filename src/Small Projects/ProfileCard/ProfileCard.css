@@ -1,0 +1,64 @@
+.title {
+  text-align: center;
+  margin: 30px 0;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+  
+}
+
+.card {
+  background: white;
+  padding: 25px 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  font-family: sans-serif;
+  border-left: 5px solid transparent;
+}
+
+.card:hover {
+
+  box-shadow: 0 10px 25px rgba(169, 139, 153, 0.25);
+}
+
+.avatar-img.barbie {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px;
+
+  background: #fff0f5;
+  box-shadow: 0 0 0 5px #ffd5dc;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.bio {
+  color: #666;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 8px;
+}
